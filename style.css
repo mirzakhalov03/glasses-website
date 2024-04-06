@@ -1,0 +1,77 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.pre__last-hero{
+    background-image: url(./imgs/pre-last.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prelast{
+    background-image: url(./imgs/pre-last\ card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prelast:nth-child(2){
+    background-image: url(./imgs/pre-last-card2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headline_h1{
+    animation: reappear 5s ease-in 1s 1 forwards;
+    opacity: 0;
+}
+
+@keyframes reappear {
+    0%{
+        font-size: 0;
+        opacity: 0;
+    }
+    50%{
+        font-size: 84px;
+        opacity: 100%;
+    }
+    100%{
+        font-size: 54px;
+        opacity: 100%;
+    }
+
+    
+}
+
+
+.btn:hover{
+    animation: dance 1s ease-in-out infinite;
+}
+
+@keyframes dance {
+    15%{
+        transform: rotate(3deg);
+
+    }
+    30%{
+        transform: rotate(6deg);
+    }
+    45%{
+        transform: rotate(3deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-3deg);
+    }
+    90%{
+        transform: rotate(-6deg);
+    }
+    100%{
+        transform: rotate(-3deg);
+    }
+}
+
